@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CFD437F0219400DDB1C5848 /* Pods_ScholarHigh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6251EF0E2B8BF63BDA7BA /* Pods_ScholarHigh.framework */; };
 		FFF79ABC2176C74600A6542F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79ABB2176C74600A6542F /* AppDelegate.swift */; };
-		FFF79ABE2176C74600A6542F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79ABD2176C74600A6542F /* ViewController.swift */; };
+		FFF79ABE2176C74600A6542F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79ABD2176C74600A6542F /* WelcomeViewController.swift */; };
 		FFF79AC12176C74600A6542F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF79ABF2176C74600A6542F /* Main.storyboard */; };
-		FFF79AC32176C74900A6542F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF79AC22176C74900A6542F /* Assets.xcassets */; };
+		FFF79AC32176C74900A6542F /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF79AC22176C74900A6542F /* image.xcassets */; };
 		FFF79AC62176C74900A6542F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF79AC42176C74900A6542F /* LaunchScreen.storyboard */; };
+		FFF79AD02176CDEE00A6542F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79ACF2176CDEE00A6542F /* Message.swift */; };
+		FFF79AD32176D48000A6542F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79AD22176D48000A6542F /* LogInViewController.swift */; };
+		FFF79AD52176D49800A6542F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79AD42176D49800A6542F /* RegisterViewController.swift */; };
+		FFF79AD72176D5FA00A6542F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79AD62176D5FA00A6542F /* ChatViewController.swift */; };
+		FFF79AD92176D92200A6542F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79AD82176D92200A6542F /* SwipeTableViewController.swift */; };
+		FFF79ADB2176D94000A6542F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF79ADA2176D94000A6542F /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4F6251EF0E2B8BF63BDA7BA /* Pods_ScholarHigh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScholarHigh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED8F3F33783D247D65EB189 /* Pods-ScholarHigh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScholarHigh.debug.xcconfig"; path = "Target Support Files/Pods-ScholarHigh/Pods-ScholarHigh.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8791DE9EBC68BF3EED0D55 /* Pods-ScholarHigh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScholarHigh.release.xcconfig"; path = "Target Support Files/Pods-ScholarHigh/Pods-ScholarHigh.release.xcconfig"; sourceTree = "<group>"; };
 		FFF79AB82176C74600A6542F /* ScholarHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScholarHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF79ABB2176C74600A6542F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFF79ABD2176C74600A6542F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF79ABD2176C74600A6542F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FFF79AC02176C74600A6542F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFF79AC22176C74900A6542F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF79AC22176C74900A6542F /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		FFF79AC52176C74900A6542F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF79AC72176C74900A6542F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF79ACF2176CDEE00A6542F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FFF79AD22176D48000A6542F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		FFF79AD42176D49800A6542F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FFF79AD62176D5FA00A6542F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FFF79AD82176D92200A6542F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		FFF79ADA2176D94000A6542F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFD437F0219400DDB1C5848 /* Pods_ScholarHigh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB2C70316936013BF594679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DED8F3F33783D247D65EB189 /* Pods-ScholarHigh.debug.xcconfig */,
+				ED8791DE9EBC68BF3EED0D55 /* Pods-ScholarHigh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D46D91D8413593A03F47B8E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6251EF0E2B8BF63BDA7BA /* Pods_ScholarHigh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFF79AAF2176C74600A6542F = {
 			isa = PBXGroup;
 			children = (
 				FFF79ABA2176C74600A6542F /* ScholarHigh */,
 				FFF79AB92176C74600A6542F /* Products */,
+				0BB2C70316936013BF594679 /* Pods */,
+				D46D91D8413593A03F47B8E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,44 @@
 		FFF79ABA2176C74600A6542F /* ScholarHigh */ = {
 			isa = PBXGroup;
 			children = (
-				FFF79ABB2176C74600A6542F /* AppDelegate.swift */,
-				FFF79ABD2176C74600A6542F /* ViewController.swift */,
-				FFF79ABF2176C74600A6542F /* Main.storyboard */,
-				FFF79AC22176C74900A6542F /* Assets.xcassets */,
-				FFF79AC42176C74900A6542F /* LaunchScreen.storyboard */,
+				FFF79AD12176CDF900A6542F /* Model */,
+				FFF79ACE2176C8F600A6542F /* Controller */,
+				FFF79ACD2176C8E400A6542F /* View */,
 				FFF79AC72176C74900A6542F /* Info.plist */,
+				FFF79AC22176C74900A6542F /* image.xcassets */,
 			);
 			path = ScholarHigh;
+			sourceTree = "<group>";
+		};
+		FFF79ACD2176C8E400A6542F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFF79ABF2176C74600A6542F /* Main.storyboard */,
+				FFF79AC42176C74900A6542F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFF79ACE2176C8F600A6542F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF79ABB2176C74600A6542F /* AppDelegate.swift */,
+				FFF79ABD2176C74600A6542F /* WelcomeViewController.swift */,
+				FFF79AD22176D48000A6542F /* LogInViewController.swift */,
+				FFF79AD42176D49800A6542F /* RegisterViewController.swift */,
+				FFF79AD62176D5FA00A6542F /* ChatViewController.swift */,
+				FFF79AD82176D92200A6542F /* SwipeTableViewController.swift */,
+				FFF79ADA2176D94000A6542F /* CategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFF79AD12176CDF900A6542F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFF79ACF2176CDEE00A6542F /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFF79ACA2176C74900A6542F /* Build configuration list for PBXNativeTarget "ScholarHigh" */;
 			buildPhases = (
+				323732C751E99E6CE6612B9B /* [CP] Check Pods Manifest.lock */,
 				FFF79AB42176C74600A6542F /* Sources */,
 				FFF79AB52176C74600A6542F /* Frameworks */,
 				FFF79AB62176C74600A6542F /* Resources */,
+				54BDF8DC2247BE6EF8F51DF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +191,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF79AC62176C74900A6542F /* LaunchScreen.storyboard in Resources */,
-				FFF79AC32176C74900A6542F /* Assets.xcassets in Resources */,
+				FFF79AC32176C74900A6542F /* image.xcassets in Resources */,
 				FFF79AC12176C74600A6542F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		323732C751E99E6CE6612B9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScholarHigh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BDF8DC2247BE6EF8F51DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScholarHigh/Pods-ScholarHigh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScholarHigh/Pods-ScholarHigh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFF79AB42176C74600A6542F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF79ABE2176C74600A6542F /* ViewController.swift in Sources */,
+				FFF79AD32176D48000A6542F /* LogInViewController.swift in Sources */,
+				FFF79AD52176D49800A6542F /* RegisterViewController.swift in Sources */,
+				FFF79AD02176CDEE00A6542F /* Message.swift in Sources */,
+				FFF79AD92176D92200A6542F /* SwipeTableViewController.swift in Sources */,
+				FFF79ADB2176D94000A6542F /* CategoryViewController.swift in Sources */,
+				FFF79ABE2176C74600A6542F /* WelcomeViewController.swift in Sources */,
+				FFF79AD72176D5FA00A6542F /* ChatViewController.swift in Sources */,
 				FFF79ABC2176C74600A6542F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +417,7 @@
 		};
 		FFF79ACB2176C74900A6542F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED8F3F33783D247D65EB189 /* Pods-ScholarHigh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +436,7 @@
 		};
 		FFF79ACC2176C74900A6542F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8791DE9EBC68BF3EED0D55 /* Pods-ScholarHigh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
